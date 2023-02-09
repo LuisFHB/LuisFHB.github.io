@@ -1,0 +1,46 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/foto-gratis/mar-tranquilo-al-atardecer_1232-425.jpg?w=740&t=st=1675813328~exp=1675813928~hmac=e25755a0f1e2327397ffb3b825ebe55e6c7d858ff1f6f1674ce20f229f1795af');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-color: rgb(83, 206, 149);*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color:#000
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+
+
+/*Estilo imagenes carrusel casa*/
+.carousel .carousel-item{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width:50vw;
+    height:50vw;
+}
+
+
+
+
+
